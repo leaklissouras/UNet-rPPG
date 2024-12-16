@@ -1,5 +1,6 @@
 ## Remote Photoplethosmyography & Deep Learning to Predict Heart Rate 
-A U-Net deep learning model for estimation of HR, adapted from Yu et al. BMME 575 Final Project.
+A U-Net deep learning model for estimation of HR, adapted from Yu et al.
+BMME 575 Final Project.
 
 
 ## Description
