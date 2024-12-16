@@ -34,7 +34,7 @@ where P is the peak location, x is any position from the current peak P(i) to th
    
 <img width="275" alt="Screenshot 2024-12-16 at 12 51 36 AM" src="https://github.com/user-attachments/assets/d32026db-9b4b-497d-8c5d-652330994b63" />
 
-The Manhattan distance is to compare ground-truth heart rate to predicted heart rate, allowing the network to focus on heart rate estimation in addition to signal matching. A Fast Fourier Transform (FFT) was first used to extract the highest frequency, which was converted to beats per minute (bpm) (3). 
+The Manhattan distance was used to compare ground-truth heart rate to predicted heart rate, allowing the network to focus on heart rate estimation in addition to signal matching. A Fast Fourier Transform (FFT) was first used to extract the highest frequency, which was converted to beats per minute (bpm) (3). 
 
 
 <img width="329" alt="Screenshot 2024-12-16 at 12 51 48 AM" src="https://github.com/user-attachments/assets/da9c43ea-1de5-4cef-9178-ebfcf4668c79" />
