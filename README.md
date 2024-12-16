@@ -29,16 +29,16 @@ The growth of telemedicine has resulted in a need for remote methods of measurin
 - cv2
 
 ### Notes:
-- Filenames, paths, and directories must be tweaked depending on where video files and ground truth PPG are saved (files do not need to be stored in the same manner as in this repository as long as path variables within the code is changed
+- Filepaths/directories must be tweaked depending on where video files and ground truth PPG are saved (files do not need to be stored in the same manner as in this repository as long as path variables within the code are changed). Filepath variables that need to be changed are marked by comments. 
 - The outputs of Landmarks_Loop.ipynb and signal_preprocess_loop.ipynb for each participant should be stored in the same subfolders. These outputs are used as inputs for MST Map generation
-- The outputs of MST Map generation serve as inputs for training. Each MST Map represents a 256 frame segment of the data (a sliding window of 10 frames was used).
+- The outputs of MST Map generation serve as inputs for training. Each MST Map represents a 256 frame segment of the data
 - A more in depth description of methods can be found in Methods.md
 
 ## Support
 Please email lklissouras@unc.edu with any questions or concerns.
 
 ## Authors and Acknowledgment
-This code was developed by Lea Klissouras, Virginie Ruest, Kabir Dewan, and Joshua Stansell. We thank Dr. Arian Azarang for his invaluable guidance and support; this project would not have been possible without his expertise and mentorship.
+This code was developed by Lea Klissouras, Virginie Ruest, Kabir Dewan, and Joshua Stansell. We thank Dr. Arian Azarang for his invaluable guidance and support– this project would not have been possible without his expertise and mentorship.
 
 ## References
 [1] Yu SN, Wang CS, Yu Ping Chang. Heart Rate Estimation From Remote Photoplethysmography Based on Light-Weight U-Net and Attention Modules.  IEEE access. 2023;11:54058-54069. doi:https://doi.org/10.1109/access.2023.3281898
