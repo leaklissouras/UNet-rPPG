@@ -58,8 +58,11 @@ This project utilized the UBFC-rPPG dataset collected by Bobbia et al. [2]. The 
 
 ### References
 [1] Yu SN, Wang CS, Yu Ping Chang. Heart Rate Estimation From Remote Photoplethysmography Based on Light-Weight U-Net and Attention Modules.  IEEE access. 2023;11:54058-54069. doi:https://doi.org/10.1109/access.2023.3281898 
+
 [2] S. Bobbia, R. Macwan, Y. Benezeth, A. Mansouri, and J. Dubois, ‘‘Unsupervised skin tissue segmentation for remote photoplethysmography,’’ Pattern Recognit. Lett., vol. 124, pp. 82–90, Jun. 2019.
+
 [3] D. E. King, ‘‘Dlib-ml: A machine learning toolkit,’’ J. Mach. Learn. Res., vol. 10, pp. 1755–1758, Dec. 2009.
+
 [4] X. Niu, Z. Yu, X. Li, S. Shan, and G. Zhao, “CVD-Physiological-Measurement,” GitHub, 2020. https://github.com/nxsEdson/CVD-Physiological-Measurement/blob/master/README.md (accessed Nov. 20, 2024).
 
 
