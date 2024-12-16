@@ -22,7 +22,8 @@ where P is the peak location, x is any position from the current peak P(i) to th
 ### Deep Learning Model
 
 <img style="width:50% height:auto" alt="image" src="https://github.com/user-attachments/assets/e685cf1a-0a36-4032-bcc9-b6955efa9b62" />
-<h6> Fig. 2. The modified U-Net architecture, including a color-coded legend and definiton of a double convolution block.MST Maps are input, and the vPPG or PPG signal is output. <h6>
+
+<h6> Fig. 2. The Modified U-Net archetecture, including a color-coded legend and defintion of a double convolution block. MST Maps are input, and the vPPG or PPG signal is output. </h6>
 
    We implemented a modified U-Net model to predict vPPg/vPPG wave signals from the input MSTmaps. The architecture is depicted in Fig. 2. Meaningful features are extracted in the encoder and reconstructed in the decoder, forming a wave signal output. All max-pooling layers were swapped with average pooling layers in order to extract mean signals from the various ROIs, and a global average pooling layers was added at the end of the model to compress the output feature map into the 1D signal wave. The model features double convolution block with PReLU activation to allow the network to capture the complex spatial relationships in the map and extract features more effectively. Additionally, skip connections concatenate feature maps from encoder layers to decoder layers, enabling the model to maintain high level features that may have been lost during down-sampling. The hyperparameters used in the model are described in Table 1.
 
