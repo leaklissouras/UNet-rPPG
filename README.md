@@ -31,6 +31,7 @@ The growth of telemedicine has resulted in a need for remote methods of measurin
 - Filenames, paths, and directories must be tweaked depending on where video files and ground truth PPG are saved (files do not need to be stored in the same manner as in this repository as long as path variables within the code is changed
 - The outputs of Landmarks_Loop.ipynb and signal_preprocess_loop.ipynb for each participant should be stored in the same subfolders. These outputs are used as inputs for MST Map generation
 - The outputs of MST Map generation serve as inputs for training. Each MST Map represents a 256 frame segment of the data (a sliding window of 10 frames was used).
+- A more in depth description of methods can be found in Methods.md
 
 ## Support
 Please email lklissouras@unc.edu with any questions or concerns.
