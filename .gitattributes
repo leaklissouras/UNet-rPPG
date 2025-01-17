@@ -1,0 +1,2 @@
+#Fix language recognition for MATLAB
+*.m linguist-language=MATLAB
