@@ -1,2 +1,3 @@
 #Fix language recognition for MATLAB
 *.m linguist-language=MATLAB
+*.m linguist-detectable=true
